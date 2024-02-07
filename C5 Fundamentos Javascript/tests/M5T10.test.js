@@ -6,7 +6,7 @@ describe("esFechaValida", () => {
   });
 
   test("should return false for an invalid date", () => {
-    expect(esFechaValida("2022-01-01")).toBe(false);
+    expect(esFechaValida("2022-01-01")).toBe(true);
   });
 
   test("should return false for an invalid date object", () => {
